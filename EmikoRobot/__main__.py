@@ -93,17 +93,19 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"👮 {dispatcher.bot.first_name} 🙋", callback_data="emiko_"),
-    ],
-    [
-        InlineKeyboardButton(text="👷🏻 Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🙋 About Me", callback_data="emiko_"),
         InlineKeyboardButton(
-            text="Try inline🙋​​", switch_inline_query_current_chat=""
+            text="Try Inline ❔", switch_inline_query_current_chat=""
         ),
     ],
     [
+        InlineKeyboardButton(text="👮 Command", callback_data="help_back"),
         InlineKeyboardButton(
-            text="➕ Add Me To Your Group ➕", url=f"t.me/{bu}?startgroup=new"),
+            text="Support 👷🏻", url=f"t.me/{SUPPORT_CHAT}"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="➕ Add me to your Group ➕", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
