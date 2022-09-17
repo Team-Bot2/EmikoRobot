@@ -383,7 +383,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Developer", url=f"t.me/{OWNER_ID}"),
+                    InlineKeyboardButton(text="Developer", url=f"t.me/yash_xdd"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back"),
@@ -429,7 +429,7 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Support", url=f"t.me/{SUPPORT_CHAT}"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/{DONATION_LINK}"),
+                    InlineKeyboardButton(text="Updates", url=f"https://t.me/{DONATION_LINK}"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -449,7 +449,7 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Yash Thakur", url="t.me/yash_xdd"),
-                    InlineKeyboardButton(text="Developer", url="t.me{SUPPORT_CHAT}"),
+                    InlineKeyboardButton(text="Music Info •", callback_data="source_"),
                  ],
                  [                   
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
