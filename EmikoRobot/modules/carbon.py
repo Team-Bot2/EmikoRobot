@@ -30,7 +30,7 @@ MEMEK = "https://telegra.ph/file/b50f2a808f8f51f3124e8.jpg"
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f**Hey I'm Devil x Robot** 
+        caption=f"""» **Hey I'm Devil x Robot** 
 
 **»Owner Repo : [Click here](https://t.me/official_afk_xD)**
 **»Python Version :** `{y()}`
