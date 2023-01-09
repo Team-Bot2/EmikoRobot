@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @excrybaby \
+ You can support the project by contacting  \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -383,7 +383,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Developer", url=f"t.me/yash_xdd"),
+                    InlineKeyboardButton(text="Developer", url=f"t.me/official_pro_xD"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back"),
@@ -448,7 +448,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Yash Thakur", url="t.me/yash_xdd"),
+                    InlineKeyboardButton(text="Creator", url="t.me/official_pro_xD"),
                     InlineKeyboardButton(text="Music Info •", callback_data="source_"),
                  ],
                  [                   
