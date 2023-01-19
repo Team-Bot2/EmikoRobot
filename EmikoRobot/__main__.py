@@ -82,18 +82,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-♡ I am an Anime themed advance group management bot with a lots of Features. [✨](https://telegra.ph/file/f017affc493d7c2123c0b.jpg)
+*🌈' ☞ ✰Hello... {} !*
 ───────────────────────
+Im Powerfull Management Bot And I Will Help In Managing Your Group [.](https://telegra.ph/file/fe82d127c1741ff570bca.jpg)
+➖➖➖➖➖➖➖➖➖➖➖➖➖
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
-───────────────────────
-➛ Try The Help Buttons Below To Know My Abilities. ××
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➤ Try The Help Buttons Below To Know My Abilities. ××
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"👮 About {dispatcher.bot.first_name} 🙋", callback_data="emiko_"),
+        InlineKeyboardButton(text=f"👮 About Ꭰҽѵɨℓ ✗ Ɍσɓσt 🙋", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="👷🏻 Get Help", callback_data="help_back"),
@@ -103,13 +104,13 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Me To Your Group ➕", url=f"t.me/{bu}?startgroup=new"),
+            text="➕ Add me to Your Group ➕", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+» Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
